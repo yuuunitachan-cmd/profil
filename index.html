@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yunita Muthmainnah Ibrahim - Yuki</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Anime+Ace&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Page Transition Overlay -->
+    <div id="page-transition"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Yuki</span>
+                <span class="logo-accent">✨</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Konnichiwa! 👋</span>
+                        <span class="name">Saya <span class="highlight">Yuki</span></span>
+                    </h1>
+                    <p class="hero-subtitle">Student of Computer Engineering • Anime Enthusiast • Web Developer Enthusiast</p>
+                    <div class="hero-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Dunia ini kejam. Dan juga... sangat indah."</p>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary nav-link">Tentang Saya</a>
+                        <a href="#contact" class="btn btn-primary nav-link">Contact</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="images/profil.jpg" alt="Yunita Muthmainnah Ibrahim" class="profile-image">
+                        <div class="image-frame"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <canvas id="sakura-canvas"></canvas>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tentang Saya</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="card-header">
+                    <i class="fas fa-heart"></i>
+                    <h3>Personal Info</h3>
+                </div>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">Nama :</span>
+                        <span class="info-value">Yunita Muthmainnah Ibrahim</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Nama Panggilan :</span>
+                        <span class="info-value">Yuki</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Tanggal Lahir :</span>
+                        <span class="info-value">19 Juni 2006</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Asal :</span>
+                        <span class="info-value">Makassar, Sulawesi Selatan</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Riwayat Pendidikan</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item active">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>S1 Teknik Komputer</h3>
+                            <span class="timeline-year">2024 - </span>
+                        </div>
+                        <h4>Universitas Negeri Makassar</h4>
+                        <p class="timeline-desc">Fokus pada CSS, layout web, dokumentasi akademik</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Web Development</span>
+                            <span class="tag">CSS Design</span>
+                            <span class="tag">Academic Writing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>SMA</h3>
+                            <span class="timeline-year">2021 - 2024</span>
+                        </div>
+                        <h4>SMA Negeri 1 Buru</h4>
+                        <p class="timeline-desc">Aktif di klub komputer dasar</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Computer Club</span>
+                            <span class="tag">Programming</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>MTs</h3>
+                            <span class="timeline-year">2018 - 2021</span>
+                        </div>
+                        <h4>Madrasah Tsanawiyah LKMD Sawa</h4>
+                        <p class="timeline-desc">Juara Cerdas Cermat antar sekolah, mulai belajar bahasa Jepang dasar</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>SD</h3>
+                            <span class="timeline-year">2012 - 2018</span>
+                        </div>
+                        <h4>SD Negeri 3 Lilialy</h4>
+                        <p class="timeline-desc">Aktif menggambar dan mulai tertarik pada anime serta seni visual</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Art</span>
+                            <span class="tag">Anime Interest</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="hobbies section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hobi & Minat</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fas fa-tv"></i></div>
+                    <h4>Menonton Anime</h4>
+                    <p>Berbagai genre dari slice of life hingga action</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fas fa-gamepad"></i></div>
+                    <h4>Gaming</h4>
+                    <p>Mobile Legends, Roblox, Love Deep Space</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fas fa-code"></i></div>
+                    <h4>Programming</h4>
+                    <p>Web development dan desain interface</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fas fa-palette"></i></div>
+                    <h4>Menggambar</h4>
+                    <p>Karakter anime dan digital art</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fas fa-book"></i></div>
+                    <h4>Membaca</h4>
+                    <p>Buku, Manga dan novel</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fas fa-music"></i></div>
+                    <h4>Musik</h4>
+                    <p>All genre</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeri Yuki</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="gallery-grid">
+                <a href="#anime-category" class="gallery-card nav-link">
+                    <img src="images/naruto1.jpg" alt="Anime">
+                    <div class="gallery-caption">Anime</div>
+                    <div class="gallery-overlay"><span>Lihat Koleksi Anime!</span></div>
+                </a>
+                <a href="#idol-category" class="gallery-card nav-link">
+                    <img src="images/idol1.jpg" alt="Idol/Aktor">
+                    <div class="gallery-caption">Idol/Aktor</div>
+                    <div class="gallery-overlay"><span>Lihat Koleksi Idol!</span></div>
+                </a>
+                <a href="#random-category" class="gallery-card nav-link">
+                    <img src="images/random1.jpg" alt="Random">
+                    <div class="gallery-caption">Random</div>
+                    <div class="gallery-overlay"><span>Lihat Koleksi Random!</span></div>
+                </a>
+                <a href="#manhwa-category" class="gallery-card nav-link">
+                    <img src="images/sakamoto1.jpg" alt="Manhwa/Manhua/Komik">
+                    <div class="gallery-caption">Manhwa/Manhua/Komik</div>
+                    <div class="gallery-overlay"><span>Lihat Koleksi Komik!</span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Images Sections -->
+    <section id="anime-category" class="category-images section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeri Anime</h2>
+                <div class="section-line"></div>
+                <a href="#gallery" class="back-btn nav-link"><i class="fas fa-arrow-left"></i> Kembali ke Kategori</a>
+            </div>
+            <div class="category-gallery-grid">
+                <div class="gallery-item"><img src="images/naruto20.jpg"><div class="gallery-overlay"><span>Naruto</span></div></div>
+                <div class="gallery-item"><img src="images/naruto11.jpg"><div class="gallery-overlay"><span>Naruto</span></div></div>
+                <div class="gallery-item"><img src="images/naruto5.jpg"><div class="gallery-overlay"><span>Naruto</span></div></div>
+                <div class="gallery-item"><img src="images/naruto13.jpg"><div class="gallery-overlay"><span>Naruto</span></div></div>
+                <div class="gallery-item"><img src="images/naruto14.jpg"><div class="gallery-overlay"><span>Naruto</span></div></div>
+                <div class="gallery-item"><img src="images/naruto16.jpg"><div class="gallery-overlay"><span>Naruto</span></div></div>
+                <div class="gallery-item"><img src="images/wotakoi1.jpg"><div class="gallery-overlay"><span>Wotakoi</span></div></div>
+                <div class="gallery-item"><img src="images/waguri5.jpg"><div class="gallery-overlay"><span>Waguri</span></div></div>
+                <div class="gallery-item"><img src="images/waguri6.jpg"><div class="gallery-overlay"><span>Waguri</span></div></div>
+                <div class="gallery-item"><img src="images/waguri7.jpg"><div class="gallery-overlay"><span>Waguri</span></div></div>
+                <div class="gallery-item"><img src="images/onepiece3.jpg"><div class="gallery-overlay"><span>One Piece</span></div></div>
+                <div class="gallery-item"><img src="images/onepiece4.jpg"><div class="gallery-overlay"><span>One Piece</span></div></div>
+                <div class="gallery-item"><img src="images/onepiece9.jpg"><div class="gallery-overlay"><span>One Piece</span></div></div>
+                <div class="gallery-item"><img src="images/naruto17.jpg"><div class="gallery-overlay"><span>Naruto</span></div></div>
+                <div class="gallery-item"><img src="images/naruto12.jpg"><div class="gallery-overlay"><span>Naruto</span></div></div>
+                <div class="gallery-item"><img src="images/onepiece10.jpg"><div class="gallery-overlay"><span>One Piece</span></div></div>
+                <div class="gallery-item"><img src="images/naruto18.jpg"><div class="gallery-overlay"><span>Naruto</span></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="idol-category" class="category-images section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeri Idol/Aktor</h2>
+                <div class="section-line"></div>
+                <a href="#gallery" class="back-btn nav-link"><i class="fas fa-arrow-left"></i> Kembali ke Kategori</a>
+            </div>
+            <div class="category-gallery-grid">
+                <div class="gallery-item"><img src="images/idol2.jpg"><div class="gallery-overlay"><span>Fruits Basket</span></div></div>
+                <div class="gallery-item"><img src="images/idol4.jpg"><div class="gallery-overlay"><span>Ouran High School</span></div></div>
+                <div class="gallery-item"><img src="images/idol11.jpg"><div class="gallery-overlay"><span>Sailor Moon</span></div></div>
+                <div class="gallery-item"><img src="images/idol6.jpg"><div class="gallery-overlay"><span>Cardcaptor Sakura</span></div></div>
+                <div class="gallery-item"><img src="images/idol7.jpg"><div class="gallery-overlay"><span>Fruits Basket</span></div></div>
+                <div class="gallery-item"><img src="images/idol8.jpg"><div class="gallery-overlay"><span>Ouran High School</span></div></div>
+                <div class="gallery-item"><img src="images/idol9.jpg"><div class="gallery-overlay"><span>Sailor Moon</span></div></div>
+                <div class="gallery-item"><img src="images/idol10.jpg"><div class="gallery-overlay"><span>Cardcaptor Sakura</span></div></div>
+                <div class="gallery-item"><img src="images/idol12.jpg"><div class="gallery-overlay"><span>Ouran High School</span></div></div>
+                <div class="gallery-item"><img src="images/idol13.jpg"><div class="gallery-overlay"><span>Sailor Moon</span></div></div>
+                <div class="gallery-item"><img src="images/idol14.jpg"><div class="gallery-overlay"><span>Cardcaptor Sakura</span></div></div>
+                <div class="gallery-item"><img src="images/idol15.jpg"><div class="gallery-overlay"><span>Cardcaptor Sakura</span></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="random-category" class="category-images section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeri Random</h2>
+                <div class="section-line"></div>
+                <a href="#gallery" class="back-btn nav-link"><i class="fas fa-arrow-left"></i> Kembali ke Kategori</a>
+            </div>
+            <div class="category-gallery-grid">
+                <div class="gallery-item"><img src="images/random1.jpg"><div class="gallery-overlay"><span>Clannad</span></div></div>
+                <div class="gallery-item"><img src="images/random4.jpg"><div class="gallery-overlay"><span>K-On!</span></div></div>
+                <div class="gallery-item"><img src="images/random6.jpg"><div class="gallery-overlay"><span>Lucky Star</span></div></div>
+                <div class="gallery-item"><img src="images/random5.jpg"><div class="gallery-overlay"><span>Hyouka</span></div></div>
+                <div class="gallery-item"><img src="images/random3.jpg"><div class="gallery-overlay"><span>Lucky Star</span></div></div>
+                <div class="gallery-item"><img src="images/random3.jpg"><div class="gallery-overlay"><span>Hyouka</span></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="manhwa-category" class="category-images section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeri Manhwa/Manhua/Komik</h2>
+                <div class="section-line"></div>
+                <a href="#gallery" class="back-btn nav-link"><i class="fas fa-arrow-left"></i> Kembali ke Kategori</a>
+            </div>
+            <div class="category-gallery-grid">
+                <div class="gallery-item"><img src="images/komik1.jpg"><div class="gallery-overlay"><span>Sword Art Online</span></div></div>
+                <div class="gallery-item"><img src="images/komik2.jpg"><div class="gallery-overlay"><span>Re:Zero</span></div></div>
+                <div class="gallery-item"><img src="images/komik4.jpg"><div class="gallery-overlay"><span>No Game No Life</span></div></div>
+                <div class="gallery-item"><img src="images/komik5.jpg"><div class="gallery-overlay"><span>Mushoku Tensei</span></div></div>
+                <div class="gallery-item"><img src="images/komik7.jpg"><div class="gallery-overlay"><span>No Game No Life</span></div></div>
+                <div class="gallery-item"><img src="images/komik8.jpg"><div class="gallery-overlay"><span>Mushoku Tensei</span></div></div>
+                <div class="gallery-item"><img src="images/komik3.jpg"><div class="gallery-overlay"><span>No Game No Life</span></div></div>
+                <div class="gallery-item"><img src="images/komik6.jpg"><div class="gallery-overlay"><span>Mushoku Tensei</span></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Anime Section -->
+    <section id="anime" class="anime section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Anime Favorit</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="anime-content">
+                <div class="anime-info">
+                    <div class="anime-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Genre Favorit</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Anime Ditonton</span>
+                        </div>
+                    </div>
+                    <div class="favorite-characters">
+                        <h4>Karakter Favorit</h4>
+                        <div class="character-list">
+                            <div class="character-item">
+                                <span class="character-name">Minato Namikaze</span>
+                                <span class="character-anime">Naruto</span>
+                            </div>
+                            <div class="character-item">
+                                <span class="character-name">Frieren</span>
+                                <span class="character-anime">Sousou no Frieren</span>
+                            </div>
+                            <div class="character-item">
+                                <span class="character-name">Roronoa Zoro</span>
+                                <span class="character-anime">One Piece</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="anime-list">
+                    <h4>Top 5 Anime</h4>
+                    <div class="anime-cards">
+                        <div class="anime-card rank-1">
+                            <div class="rank-badge">1</div>
+                            <h3>One Piece</h3>
+                            <span class="genre">Adventure • Shounen</span>
+                        </div>
+                        <div class="anime-card rank-2">
+                            <div class="rank-badge">2</div>
+                            <h3>Naruto</h3>
+                            <span class="genre">Action • Ninja</span>
+                        </div>
+                        <div class="anime-card rank-3">
+                            <div class="rank-badge">3</div>
+                            <h3>Frieren: Beyond Journey's End</h3>
+                            <span class="genre">Fantasy • Drama</span>
+                        </div>
+                        <div class="anime-card rank-4">
+                            <div class="rank-badge">4</div>
+                            <h3>Classroom of the Elite</h3>
+                            <span class="genre">School • Psychological</span>
+                        </div>
+                        <div class="anime-card rank-5">
+                            <div class="rank-badge">5</div>
+                            <h3>Nanatsu no Taizai</h3>
+                            <span class="genre">Adventure • Magic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Keahlian</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Programming</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS & Layout</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Web Design</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <i class="fas fa-language"></i>
+                            <h3>Languages</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Bahasa Indonesia</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">English (Basic)</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Japanese (Basic)</span>
+                                    <span class="skill-percentage">40%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="40%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <i class="fas fa-star"></i>
+                            <h3>Other Skills</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Academic Writing</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Digital Art</span>
+                                    <span class="skill-percentage">65%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="65%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kontak</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Mari Terhubung!</h3>
+                    <p>Jangan ragu untuk menghubungi saya jika ingin berbagi tentang anime, programming, atau sekadar ngobrol!</p>
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span><a href="mailto:muthmainnahyunita@gmail.com">muthmainnahyunita@gmail.com</a></span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span><a href="tel:+6281234567890">+62 812-3456-7890</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h4>Temukan Saya Di:</h4>
+                    <div class="social-grid">
+                        <a href="https://www.instagram.com/fdtki_?igsh=MXdqeHptZzE5Z2ZxdA==" class="social-link instagram" target="_blank">
+                            <i class="fab fa-instagram"></i><span>Instagram</span><small>@fdtki_</small>
+                        </a>
+                        <a href="https://www.linkedin.com/in/yunita-muthmainnah-32a2b6301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link linkedin" target="_blank">
+                            <i class="fab fa-linkedin"></i><span>LinkedIn</span><small>yunita-muthmainnah</small>
+                        </a>
+                        <a href="https://github.com/yuuunitachan-cmd/pemrograman-web" class="social-link github" target="_blank">
+                            <i class="fab fa-github"></i><span>GitHub</span><small>yuuunitachan-cmd</small>
+                        </a>
+                        <a class="social-link discord" target="_blank">
+                            <i class="fab fa-discord"></i><span>Discord</span><small>fdtki</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Yunita Muthmainnah Ibrahim (Yuki). Made with ❤️ and lots of anime inspiration!</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" class="nav-link">Back to Top ⬆️</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Anime Character Popup -->
+    <div id="character-popup" class="character-popup">
+        <img src="images/chibi.png" alt="Chibi Character">
+        <div class="character-dialog">
+            <p></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
